@@ -1,13 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto 300', sans-serif;
     color: white;
+
 }
 li{
     background-color:  #354BF7;
-    list-style-type: none;
     padding-top: 15px;
     margin-bottom: 25px;
+    list-style: none;
+    margin-right: 45px;
 }
 h1{
     font-size: 60px;
@@ -15,14 +18,24 @@ h1{
 }
 h2{
     background-color: #C70039;
-    margin: 10px;
+    padding: 20px;
     text-align: center;
     border-radius: 5px;
+    font-size: 40px;
+    font-weight: bold;
+}
+h3{
+    font-size: 35px;
+    font-weight: bold;
+}
+p{
+    line-height: 30px;
 }
 article:first-of-type{
     background-color: #354BF7;
     padding: 25px;
     line-height: 30px;
+    border-radius: 25px 25px 0px 0px;
 }
 span{
     background-color: white;
@@ -30,4 +43,25 @@ span{
     border-radius: 6px;
     padding: 0px 10px 0px 10px;
     font-weight: bolder;
+}
+section{
+    margin: 0px 35px 0px 35px;
+    padding-bottom: 30px;
+}
+a{
+    background-color: #C70039;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+a:hover{
+    background-color: white;
+    color: #C70039;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    border: 2px #C70039 solid;
+    transition: 0.3s ease;
 }
