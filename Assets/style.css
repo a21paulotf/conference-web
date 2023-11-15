@@ -3,7 +3,7 @@
 body{
     font-family: 'Roboto 300', sans-serif;
     color: white;
-
+    text-align: justify;
 }
 li{
     background-color:  #354BF7;
@@ -54,7 +54,7 @@ a{
     padding: 10px;
     border-radius: 5px;
     text-decoration: none;
-    transition: 0.3s ease;
+    transition: 0.5s ease;
 }
 a:hover{
     background-color: white;
@@ -63,5 +63,27 @@ a:hover{
     border-radius: 5px;
     text-decoration: none;
     border: 2px #C70039 solid;
-    transition: 0.3s ease;
+    transition: 0.5s ease;
+}
+
+main > div:first-of-type{
+    width: 160px;
+    height: 130px;
+    background-color: #C70039;
+    margin: 39px;
+    position: relative;
+}
+div:nth-child(1){
+    background-color: #354BF7;
+    height: 90px;
+    width: 110px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+div > div:nth-child(2){
+    background-color: white;
+    height: 90px;
+    width: 80px;
+    position: absolute;
 }
